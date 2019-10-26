@@ -40,7 +40,8 @@ class Chatroom extends Component {
 function mapStateToProps (reduxState) {
   console.log("mstp of chatroom component", reduxState)
   return {
-    messages: reduxState.message
+    messages: reduxState.message,
+    user111: reduxState.user
   }
 
 }
